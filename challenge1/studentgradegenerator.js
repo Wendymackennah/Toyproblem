@@ -1,5 +1,5 @@
-const consoleInput = prompt("Enter Student Marks");
-
+const consoleInput = prompt("Enter Student Marks");//declares variable that prompts user to input student marks.
+//function has if and else statements to help define the categories in which one`s marks belong.
 function calculateGrade(marks){
     if (marks>=79 && marks <=100){
         return 'A';
@@ -17,4 +17,6 @@ function calculateGrade(marks){
     }
 } 
 const grade=calculateGrade(parseInt(consoleInput));
+//To output the grade scored
 alert(`Your student marks: ${consoleInput}\n Grade: ${grade}`);
+//After Calculation, and click of a button on the alert dialog box ,one is alerted on the grades they scored.

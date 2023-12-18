@@ -1,5 +1,5 @@
-const  consoleInput =prompt('Enter Speed');
-
+const  consoleInput =prompt('Enter Speed');//To  get speed in km/hr from the drivers
+//Function to calculate points based on the driver's speed limit
 function speedDetector(speed){
 const speedLimit =70;
 const  pointsPerDemerit=5;
@@ -17,4 +17,5 @@ else{
 }
 }
 console.log(speedDetector(90));
+//alert to give an output to the driver
 alert("your demerit Points : ${demeritPoints}");
